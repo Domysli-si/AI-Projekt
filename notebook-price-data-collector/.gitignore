@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtuální prostředí
+venv/
+.venv/
+env/
+
+# Data (surová data nechceme v gitu - jsou velká a generují se scraperem)
+data/raw/*.csv
+data/logs/*.log
+
+# Playwright
+.playwright/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
