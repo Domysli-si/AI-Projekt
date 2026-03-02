@@ -1,0 +1,21 @@
+notebook-price-data-collector/
+│
+├── README.md
+├── requirements.txt
+├── run_scraper.bat
+├── run_scraper.sh
+│
+├── src/
+│   ├── main.py
+│   ├── scraper.py
+│   ├── parser.py
+│   └── utils.py
+│
+├── data/
+│   ├── raw/
+│   │   └── notebooks_raw.csv
+│   └── logs/
+│       └── scraper.log
+│
+└── docs/
+    └── data_sources.md
